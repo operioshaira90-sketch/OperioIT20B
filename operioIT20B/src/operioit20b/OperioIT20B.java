@@ -14,7 +14,11 @@ public class OperioIT20B {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+         int[] values = {2,4,6,8,10};
          
+         for (int i = 0; i < values.length; i++) {
+             System.out.print(values[i] + " "); 
+        }
     }
     
 }
