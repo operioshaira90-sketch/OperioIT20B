@@ -1,21 +1,21 @@
 README Documentation
 
 About the Program:
-Kini nga Java program (SortingAlgorithms.java) nagpakita kung unsaon pag-arrange sa napulo (10) ka wala nagkasunod nga mga numero (44, 38, 5, 47, 15, 36, 26, 27, 2, 46) gikan sa pinakagamay padulong sa pinakadako (ascending order) gamit ang tulo ka sorting algorithms: Bubble Sort, Selection Sort, ug Insertion Sort. Sa main() method, naghimo ko og managlahi nga kopya sa original array gamit ang .clone() aron ang matag algorithm mo-sort sa parehas nga original numbers ug ipakita ang ilang output.
+Kani nga Java program (SortingAlgorithms.java) nagpakita kung unsaon pag-arrange sa pulo (10) ka wala nagsunod nga mga number (44, 38, 5, 47, 15, 36, 26, 27, 2, 46) gikan sa pinakagamay padulong sa pinakadako (ascending order) gamit ang tulo ka sorting algorithms: Bubble Sort, Selection Sort, ug Insertion Sort. Sa main() method, naghimo ko og managlahi nga kopya sa original array gamit ang .clone() aron ang matag algorithm mo-sort sa parehas nga original numbers ug ipakita ang ilang output.
 
 How Bubble Sort Works:
 Ang Bubble Sort magkumpara sa duha ka magtapad nga numbers sa array. Kung ang nauna nga number mas dako kaysa sa sunod (arr[j] > arr[j + 1]), magbaylo sila og position. Balik-balikon kini hangtod nga ang mga dagkong numbers mapadulong sa tumoy ug ma-arrange ang tanan gikan sa pinakagamay padulong sa pinakadako.
 
 How Selection Sort Works:
-Ang Selection Sort mangita sa pinakagamay nga number sa wala pa ma-sort nga bahin sa array. Kung makit-an na ang pinakagamay, ibaylo kini sa pinakaunang position sa wala pa ma-sort nga part. Balik-balikon kini kada round hangtod ma-arrange ang tanan gikan sa pinakagamay padulong sa pinakadako.
+Ang Selection Sort mangita sa pinakagamay nga number sa wala pa ma-sort nga bahin sa array. Kung makit-an na ang pinakagamay, ibaylo ni sa pinakaunang position sa wala pa ma-sort nga part. Balik-balikon ni kada round hangtod ma-arrange ang tanan gikan sa pinakagamay padulong sa pinakadako.
 
 How Insertion Sort Works:
-Ang Insertion Sort murag nag-arrange og playing cards sa kamot. Mokuha kini og usa ka number gikan sa wala pa ma-sort nga bahin, dayon i-check ug isuksok (insert) kini sa saktong position sulod sa mga numbers nga nauna nang na-arrange pinaagi sa pag-irog sa mga mas dagko nga numbers paingon sa tuo.
+Ang Insertion Sort murag nag-arrange og playing cards sa kamot. Mokuha ni og isa ka number gikan sa wala pa ma-sort nga bahin, dayon i-check ug isuksok (insert) ni sa saktong position sulod sa mga numbers nga nauna nang na-arrange pinaagi sa pag swap sa mga mas dagko nga numbers paingon sa tuo.
 
 Differences Between the Three Sorting Algorithms:
-- Bubble Sort: Magkumpara ug mag-swap sa duha ka magtapad nga numbers balik-balik matag agi hangtod ma-arrange tanan.
-- Selection Sort: Mangita sa pinakagamay nga number sa tibuok wala pa ma-sort nga listahan usa pa mag-swap kausa kada round.
-- Insertion Sort: Dili magsigeg swap og pares; mokuha lang og tag-usa ka number ug isuksok kini direktang sa saktong position sa na-sort na nga bahin.
+- Bubble Sort: Magkumpara ug mag-swap sa duha ka magtapad nga numbers balik-balik kada agi hangtod ma-arrange tanan.
+- Selection Sort: Mangita sa pinakagamay nga number sa tibuok wala pa ma-sort nga listahan usa pa mag-swap kaisa kada round.
+- Insertion Sort: Dili magsigeg swap og pares; mokuha lang og tag-usa ka number ug isuksok ni diretso  sa saktong position sa na-sort na nga part.
 
 
 Reflection Questions
